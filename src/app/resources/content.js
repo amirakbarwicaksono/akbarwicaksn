@@ -29,17 +29,17 @@ const social = [
     {
         name: 'LinkedIn',
         icon: 'linkedin',
-        link: 'https://www.linkedin.com/company/once-ui/',
+        link: 'https://id.linkedin.com/in/amir-akbar-wicaksono',
     },
     {
-        name: 'X',
+        name: 'Thread',
         icon: 'x',
         link: '',
     },
     {
         name: 'Email',
         icon: 'email',
-        link: 'mailto:example@gmail.com',
+        link: 'amirakbarwicaksono@gmail.com',
     },
 ]
 
