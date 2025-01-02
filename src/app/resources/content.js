@@ -76,12 +76,12 @@ const about = {
         title: 'Work Experience',
         experiences: [
             {
-                company: 'FLY',
-                timeframe: '2022 - Present',
-                role: 'Senior Design Engineer',
+                company: 'Lion Air Group',
+                timeframe: '2024 - Present',
+                role: 'Full Stack Data Analyst',
                 achievements: [
-                    <>Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user engagement and 30% faster load times.</>,
-                    <>Spearheaded the integration of AI tools into design workflows, enabling designers to iterate 50% faster.</>
+                    <>Developed automation and processing tools using Tech : MongoDB/PostgreSQL - Golang - NextJS, resulting in a 98.44% increase in loopkup process time and 30% faster anylst final data.</>,
+                    <>Improved workflows and data accessibility through custom application development, enabling user and management  understanding data faster.</>
                 ],
                 images: [ // optional: leave the array empty if you don't want to display images
                     {
