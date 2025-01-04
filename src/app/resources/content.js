@@ -69,7 +69,7 @@ const about = {
     intro: {
         display: true,
         title: 'Introduction',
-        description: <>Akbar is a Jakarta-based Full Stack Data Analyst with a passion for transforming complex challenges into simple, elegant design solutions. Him work spans digital interfaces, interactive experiences, and the convergence of design and technology.</>
+        description: <>Akbar is a Jakarta-based Full Stack Data Analyst with a passion for transforming complex data challenges into actionable insights and impactful solutions. His work encompasses data visualization, statistical analysis, interactive dashboards, and the integration of data science and technology to drive decision-making and innovation.</>
     },
     work: {
         display: true, // set to false to hide this section
