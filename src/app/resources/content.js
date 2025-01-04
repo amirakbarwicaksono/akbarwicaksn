@@ -48,7 +48,7 @@ const home = {
     title: `${person.name}'s Portfolio`,
     description: `Portfolio website showcasing my work as a ${person.role}`,
     headline: <>Full Stack Data Analyst</>,
-    subline: <>I'm Akbarwicaksn, a Full Stack Data Analyst at <InlineCode>Lion Air Group</InlineCode>, where I craft intuitive<br/> user experiences. After hours, I build my own projects.</>
+    subline: <>I'm Akbarwicaksn, a Full Stack Data Analyst at <InlineCode>Lion Air Group</InlineCode>, where I transform data into actionable insights and craft intuitive visualizations and dashboards to support decision-making. In my spare time, I work on personal projects, exploring innovative ways to harness data and technology.</>
 }
 
 const about = {
