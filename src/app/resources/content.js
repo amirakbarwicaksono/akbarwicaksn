@@ -97,8 +97,12 @@ const about = {
                 timeframe: '2019 - 2024',
                 role: 'Automation Engineer',
                 achievements: [
-                    <>Developed a design system that unified the brand across multiple platforms, improving design consistency by 40%.</>,
-                    <>Led a cross-functional team to launch a new product line, contributing to a 15% increase in overall company revenue.</>
+                    <>Develop road map and support implementation of automation, and digitization to adopt digital transformation in industry 4.0</>,
+                    <>Planning and co-ordinating system instalation.</>
+                    <>Perform training after testing & commissioning.</>
+                    <>Troubleshoot trouble on site</>
+                    <>Contributed in continuos improvement for line assembly</>
+                    <>Supporting Project Manager to join meeting with Director.</>
                 ],
                 images: [ ]
             }
