@@ -98,10 +98,10 @@ const about = {
                 role: 'Automation Engineer',
                 achievements: [
                     <>Develop road map and support implementation of automation, and digitization to adopt digital transformation in industry 4.0</>,
-                    <>Planning and co-ordinating system instalation.</>
-                    <>Perform training after testing & commissioning.</>
-                    <>Troubleshoot trouble on site</>
-                    <>Contributed in continuos improvement for line assembly</>
+                    <>Planning and co-ordinating system instalation.</>,
+                    <>Perform training after testing & commissioning.</>,
+                    <>Troubleshoot trouble on site</>,
+                    <>Contributed in continuos improvement for line assembly</>,
                     <>Supporting Project Manager to join meeting with Director.</>
                 ],
                 images: [ ]
