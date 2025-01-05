@@ -118,7 +118,7 @@ const about = {
             },
             {
                 name: 'Purwadhika',
-                description: <>Data Analytics</>,
+                description: <>Data Analytics - DALS04</>,
             }
         ]
     },
