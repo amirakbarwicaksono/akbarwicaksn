@@ -117,7 +117,7 @@ const about = {
                 description: <>Master Of Engineering.</>,
             },
             {
-                name: 'Purwadhika',
+                name: 'Purwadhika Digital Technology School',
                 description: <>Data Analytics - DALS04</>,
             }
         ]
