@@ -146,8 +146,8 @@ const about = {
                 ]
             },
             {
-                title: 'Next.js',
-                description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
+                title: 'IoT Stack',
+                description: <>Proficient in utilizing the MING stack (MQTT, InfluxDB, Node-RED, Grafana) for IoT solutions, specializing in creating efficient data pipelines, real-time monitoring systems, and interactive dashboards with exceptional speed and accuracy.</>,
                 // optional: leave the array empty if you don't want to display images
                 images: [
                     {
