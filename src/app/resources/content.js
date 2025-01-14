@@ -127,8 +127,8 @@ const about = {
         title: 'Technical skills',
         skills: [
             {
-                title: 'Figma',
-                description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
+                title: 'EDA Stack',
+                description: <>Proficient in utilizing Excel, SQL, Python, Tableau, and Power BI for Exploratory Data Analysis (EDA), specializing in uncovering patterns, analyzing trends, and delivering actionable insights through impactful visualizations to support.</>,
                 // optional: leave the array empty if you don't want to display images
                 images: [
                     {
