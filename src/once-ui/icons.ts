@@ -56,7 +56,7 @@ export const iconLibrary: Record<string, IconType> = {
 	book: PiBookBookmarkDuotone,
 	close: HiMiniXMark,
 	openLink: HiOutlineLink,
-	calendar: HiCalendarDays,
+	calendar: HiPhone, //new added change calender HiCalendarDays,
 	home: PiHouseDuotone,
 	gallery: PiImageDuotone,
 	discord: FaDiscord,
