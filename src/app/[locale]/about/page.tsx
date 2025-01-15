@@ -163,7 +163,7 @@ export default function About(
                                 </Flex>
                                 <Flex
                                     paddingX="8">
-                                    Schedule a call
+                                    0813-3351-9293
                                 </Flex>
                                 <IconButton
                                     href={about.calendar.link}
