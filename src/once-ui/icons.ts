@@ -18,6 +18,7 @@ import {
 	HiMiniGlobeAsiaAustralia,
 	HiEnvelope,
 	HiCalendarDays,
+	HiPhone,
 	HiClipboard
 } from "react-icons/hi2";
 
