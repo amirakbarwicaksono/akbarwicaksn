@@ -39,7 +39,7 @@ const social = [
     {
         name: 'Email',
         icon: 'email',
-        link: 'amirakbarwicaksono@gmail.com',
+        link: 'mailto:amirakbarwicaksono@gmail.com',
     },
 ]
 
