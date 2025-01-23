@@ -64,7 +64,7 @@ const about = {
     },
     calendar: {
         display: true,
-        link: 'https://cal.com'
+        link: 'https://api.whatsapp.com/send?phone=6281333519293&text='
     },
     intro: {
         display: true,
