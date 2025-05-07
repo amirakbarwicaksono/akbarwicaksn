@@ -151,19 +151,19 @@ const about = {
                 // optional: leave the array empty if you don't want to display images
                 images: [
                     {
-                        src: '/images/projects/project-01/cover-06.jpg',
+                        src: '/images/projects/project-01/cover-06.jpeg',
                         alt: 'Project image',
                         width: 16,
                         height: 9
                     },
                     {
-                        src: '/images/projects/project-01/cover-07.jpg',
+                        src: '/images/projects/project-01/cover-07.jpeg',
                         alt: 'Project image',
                         width: 16,
                         height: 9
                     },
                     {
-                        src: '/images/projects/project-01/cover-08.jpg',
+                        src: '/images/projects/project-01/cover-08.jpeg',
                         alt: 'Project image',
                         width: 16,
                         height: 9
