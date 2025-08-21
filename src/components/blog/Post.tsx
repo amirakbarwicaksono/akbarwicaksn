@@ -1,51 +1,49 @@
 "use client";
 
-import { Flex, Heading, SmartImage, SmartLink, Tag, Text } from '@/once-ui/components';
+import { Column, Flex, Heading, Media, SmartLink, Tag, Text } from '@once-ui-system/core';
 import styles from './Posts.module.scss';
-import { formatDate } from '@/app/utils/formatDate';
+import { formatDate } from '@/utils/formatDate';
 
 interface PostProps {
     post: any;
     thumbnail: boolean;
+    direction?: "row" | "column";
 }
 
-export default function Post({ post, thumbnail }: PostProps) {
+export default function Post({ post, thumbnail, direction }: PostProps) {
     return (
         <SmartLink
-            className={styles.hover}
-            style={{
-                textDecoration: 'none',
-                margin: '0',
-                height: 'fit-content',
-            }}
+            fillWidth
+            unstyled
+            style={{ borderRadius: 'var(--radius-l)' }}
             key={post.slug}
             href={`/blog/${post.slug}`}>
             <Flex
                 position="relative"
+                transition="micro-medium"
+                direction={direction}
+                radius="l"
+                className={styles.hover}
                 mobileDirection="column"
-                fillWidth paddingY="12" paddingX="16" gap="32">
+                fillWidth>
                 {post.metadata.image && thumbnail && (
-                    <Flex
-                        maxWidth={20} fillWidth
-                        className={styles.image}>
-                        <SmartImage
-                            priority
-                            sizes="640px"
-                            style={{
-                                cursor: 'pointer',
-                                border: '1px solid var(--neutral-alpha-weak)'
-                            }}
-                            radius="m"
-                            src={post.metadata.image}
-                            alt={'Thumbnail of ' + post.metadata.title}
-                            aspectRatio="16 / 9"
-                        />
-                    </Flex>
+                    <Media
+                        priority
+                        className={styles.image}
+                        sizes="(max-width: 768px) 100vw, 640px"
+                        border="neutral-alpha-weak"
+                        cursor="interactive"
+                        radius="l"
+                        src={post.metadata.image}
+                        alt={'Thumbnail of ' + post.metadata.title}
+                        aspectRatio="16 / 9"
+                    />
                 )}
-                <Flex
+                <Column
                     position="relative"
-                    fillWidth gap="8"
-                    direction="column" justifyContent="center">
+                    fillWidth gap="4"
+                    padding="24"
+                    vertical="center">
                     <Heading
                         as="h2"
                         variant="heading-strong-l"
@@ -59,11 +57,11 @@ export default function Post({ post, thumbnail }: PostProps) {
                     </Text>
                     { post.metadata.tag &&
                         <Tag
-                            className="mt-8"
+                            className="mt-12"
                             label={post.metadata.tag}
                             variant="neutral" />
                     }
-                </Flex>
+                </Column>
             </Flex>
         </SmartLink>
     );
