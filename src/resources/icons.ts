@@ -20,6 +20,7 @@ import {
   PiGridFourDuotone,
   PiBookBookmarkDuotone,
   PiImageDuotone,
+  PiMusicNote,
 } from "react-icons/pi";
 
 import { FaDiscord, FaGithub, FaLinkedin, FaX, FaThreads, FaMusic } from "react-icons/fa6";
@@ -46,7 +47,7 @@ export const iconLibrary: Record<string, IconType> = {
   arrowUpRightFromSquare: HiArrowTopRightOnSquare,
   document: HiOutlineDocument,
   rocket: HiOutlineRocketLaunch,
-  music: FaMusic, // ✅ Tambahkan ikon music di sini
+  music: PiMusicNote, // ✅ Tambahkan ikon music di sini
 };
 
 export type IconLibrary = typeof iconLibrary;
