@@ -38,9 +38,9 @@ export default function MusicPage() {
       />
 
       {/* Avatar dan Lokasi */}  
-      <Flex horizontal="center" vertical="center" gap="m">
+      {/* <Flex horizontal="center" vertical="center" gap="m">
         <Avatar src={person.avatar} size="xl" />
-      </Flex>
+      </Flex> */}
 
       {/* Judul & Deskripsi */}
        <Column gap="s" align="center">
