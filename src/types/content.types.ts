@@ -124,6 +124,10 @@ export interface About extends BasePageConfig {
     display: boolean;
     /** Link to the calendar */
     link: string;
+    /** Icon to use (optional for backward compatibility) */
+    icon?: IconName;
+    /** Custom text for button (optional) */
+    label?: string;
   };
   /** Introduction section */
   intro: {

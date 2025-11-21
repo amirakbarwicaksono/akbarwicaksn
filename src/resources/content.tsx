@@ -85,8 +85,11 @@ const about: About = {
   },
   calendar: {
     display: true,
-    link: "https://cal.com",
+    icon: "instagram",
+    label: "@detalab.io",
+    link: "https://instagram.com/detalab.io",
   },
+
   intro: {
     display: true,
     title: "Introduction",

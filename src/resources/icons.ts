@@ -23,7 +23,7 @@ import {
   PiMusicNote,
 } from "react-icons/pi";
 
-import { FaDiscord, FaGithub, FaLinkedin, FaX, FaThreads, FaMusic } from "react-icons/fa6";
+import { FaDiscord, FaGithub, FaLinkedin, FaX, FaThreads, FaMusic, FaInstagram } from "react-icons/fa6";
 
 export const iconLibrary: Record<string, IconType> = {
   arrowUpRight: HiArrowUpRight,
@@ -48,6 +48,7 @@ export const iconLibrary: Record<string, IconType> = {
   document: HiOutlineDocument,
   rocket: HiOutlineRocketLaunch,
   music: PiMusicNote, // ✅ Tambahkan ikon music di sini
+  instagram: FaInstagram, // ✅ Tambahkan ikon instagram di sini
 };
 
 export type IconLibrary = typeof iconLibrary;
