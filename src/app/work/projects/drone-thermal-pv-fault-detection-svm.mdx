@@ -1,7 +1,75 @@
 ---
-title: "Once UI: Open-source design system"
-publishedAt: "2024-04-08"
+title: "Thermal-Enhanced Drone System for PV Fault Detection Using SVM Classification"
+publishedAt: "2024-08-12"
+summary: "A custom-modified DJI Air 4S equipped with a thermal imaging module and an SVM-based machine learning pipeline for detecting solar panel faults with high accuracy."
 images:
-  - "/images/projects/project-01/cover-04.jpg"
-  - "/images/projects/project-01/video-01.mp4"
+  - "/images/projects/project-drone-pv/cover.jpg"
+  - "/images/projects/project-drone-pv/thermal-view.jpg"
+team:
+  - name: "Akbar"
+    role: "Embedded & AI Engineer"
+    avatar: "/images/avatar.jpg"
+    linkedIn: "https://www.linkedin.com/in/your-profile/"
+link: "https://your-portfolio-link.com/"
 ---
+
+## Overview
+
+In this project, I developed a **drone-based photovoltaic (PV) fault detection platform** using a custom-modified **DJI Air 4S** equipped with an additional **thermal imaging camera** and an **SVM (Support Vector Machine)** model for automated classification of PV abnormalities.  
+This system enables fast, safe, and scalable inspection of large solar farms, significantly reducing the need for manual field inspection.
+
+The main objective was to create a pipeline that integrates **drone thermal imaging**, **on-ground preprocessing**, and **machine learning inference** to detect hotspots, bypass diode failures, and module degradation.
+
+## Key Features
+
+- **Thermal Camera Integration**  
+  The DJI Air 4S was modified with a lightweight thermal imaging module mounted using a custom 3D-printed bracket. The thermal feed is captured simultaneously with the visible-light camera for precise alignment.
+
+- **SVM-Based Fault Classification**  
+  Thermal data is preprocessed to extract features such as temperature gradients, cluster intensity, and shape patterns. These are fed into an SVM model trained to classify:
+  - Normal Panel  
+  - Hotspot Fault  
+  - PID (Potential-Induced Degradation)  
+  - Bypass Diode Failure  
+  - Surface Soiling / Partial Shading  
+
+- **Automated Data Pipeline**  
+  After each flight, images are automatically synced to a ground station. A Python-based pipeline handles:
+  - Noise removal  
+  - Thermal thresholding  
+  - Segmentation  
+  - Feature extraction  
+  - SVM inference  
+  - Geo-tagged fault marking  
+
+- **Real-Time Fault Mapping**  
+  Classified faults are exported into a geo-referenced report compatible with QGIS or custom dashboards. Each PV module with detected anomalies is marked with a unique ID and severity score.
+
+## Technologies Used
+
+- **DJI Air 4S** with custom thermal camera integration  
+- **FLIR Lepton 3.5** (or similar lightweight thermal module)  
+- **OpenCV** for thermal image processing  
+- **Python + Scikit-Learn** for ML SVM training and inference  
+- **3D-printed mounting system** designed in Fusion 360  
+- **GIS tools** for mapping and report generation  
+
+## Challenges and Learnings
+
+One of the biggest engineering challenges was achieving **stable thermal alignment** with the built-in gimbal of the DJI Air 4S.  
+Because the thermal camera operates independently, multimodal image registration techniques were required to synchronize thermal and RGB frames.
+
+Another challenge was optimizing SVM performance across varying lighting conditions and panel temperatures. Feature engineering played a critical role—especially incorporating relative temperature deltas instead of absolute temperature values for robustness.
+
+The project also required developing a lightweight processing pipeline capable of handling **hundreds of images per flight**, ensuring dependable preprocessing, segmentation, and classification.
+
+## Outcome
+
+The drone-based system achieved a **fault detection accuracy of 92%**, significantly reducing inspection time for a 1MW solar farm from **3 hours to under 25 minutes**.  
+Operators gain immediate insights into the health of PV modules without the need for manual thermal scanning.
+
+This project demonstrates the potential of **lightweight drone modifications + machine learning** to elevate renewable energy maintenance workflows and optimize solar farm performance.
+
+---
+
+This project highlights your expertise in hardware modification, thermal imaging, and applied machine learning — a strong addition to a technical engineering portfolio.
