@@ -59,10 +59,10 @@ const home: Home = {
     display: true,
     title: (
       <>
-        Recent project: <strong className="ml-4">Once UI</strong>
+        Recent project: <strong className="ml-4">OEE ESP32</strong>
       </>
     ),
-    href: "/work/building-once-ui-a-customizable-design-system",
+    href: "/work/diy-esp32-oee-mqtt-monitoring-board",
   },
   subline: (
     <>
