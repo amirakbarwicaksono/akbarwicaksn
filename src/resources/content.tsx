@@ -107,7 +107,7 @@ const about: About = {
     // ),
     description: (
       <>
-        Akbar is a Jakarta-based lecturer at <strong>Universitas Trisakti</strong>, driven by a commitment to strengthening scientific literacy through the Tridarma Perguruan Tinggi, encompassing teaching, research, and community engagement. His academic work focuses on Internet of Things (IoT), embedded systems, machine learning, and unmanned aerial vehicles (UAVs), aiming to bridge fundamental science with practical and accessible technologies. Through his teaching and research, he seeks to translate complex technical challenges into meaningful solutions that inspire students and create tangible impact for society.
+        Akbar is a Jakarta-based lecturer at Universitas Trisakti, driven by a commitment to strengthening scientific literacy through the Tridarma Perguruan Tinggi, encompassing teaching, research, and community engagement. His academic work focuses on Internet of Things (IoT), embedded systems, machine learning, and unmanned aerial vehicles (UAVs), aiming to bridge fundamental science with practical and accessible technologies. Through his teaching and research, he seeks to translate complex technical challenges into meaningful solutions that inspire students and create tangible impact for society.
       </>
      ),
 
