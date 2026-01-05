@@ -64,11 +64,17 @@ const home: Home = {
     ),
     href: "/work/diy-esp32-oee-mqtt-monitoring-board",
   },
+  // subline: (
+  //   <>
+  //     I am Akbar, a dedicated lecturer at <strong>Universitas Trisakti</strong>, where I actively contribute to the Tridarma Perguruan Tinggi through teaching, research, and community engagement. Beyond my academic responsibilities, I pursue advanced research in drones, Internet of Things (IoT), and the intersection of technology and art.
+  //   </>
+  // ),
   subline: (
-    <>
-      I am Akbar, a dedicated lecturer at <strong>Universitas Trisakti</strong>, where I actively contribute to the Tridarma Perguruan Tinggi through teaching, research, and community engagement. Beyond my academic responsibilities, I pursue advanced research in drones, Internet of Things (IoT), and the intersection of technology and art.
-    </>
-  ),
+  <>
+    I am Akbar, a lecturer at <strong>Universitas Trisakti</strong>, motivated by concern over the limited attention given to science, particularly physics and engineering, in my country. Choosing to contribute from within the system, I dedicate my work to education, research, and community engagement under the Tridarma Perguruan Tinggi. My research focuses on the Internet of Things (IoT), embedded systems, machine learning, and unmanned aerial vehicles (UAVs), aiming to bridge fundamental science with practical technologies that inspire students and create real societal impact.
+  </>
+),
+
 };
 
 const about: About = {
